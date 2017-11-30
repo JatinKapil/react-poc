@@ -4,6 +4,11 @@ import './App.css';
 import { Switch, Route, Link } from 'react-router-dom'
 
 class App extends Component {
+
+    handleClick(id,e){
+        console.log('id', id, e);
+    }
+
   render() {
     return (
       <div className="App">
@@ -16,6 +21,9 @@ class App extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
         <Main />
+        <button onClick={this.handleClick.bind(this,25)}>
+        Click me
+        </button>
       </div>
     );
   }

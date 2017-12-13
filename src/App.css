@@ -23,7 +23,9 @@
 }
 
 .App-intro {
-  font-size: large;
+    font-family: 'Roboto', sans-serif;
+    font-size: 4vw;
+    font-weight: 200;
 }
 .navbar{
     background-color: #20232a;
